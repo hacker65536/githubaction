@@ -22,4 +22,4 @@ jobs:
     - name: install ansible-lint
       run: whereis ansible-lint
     - name: version
-      run: .local/bin/ansible-lint --version
+      run: ~/.local/bin/ansible-lint --version
