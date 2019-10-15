@@ -20,4 +20,4 @@ jobs:
     - name: install ansible-lint
       run: pip3 install ansible-lint
     - name: install ansible-lint
-      run: whereis pip  
+      run: whereis ansible-lint
