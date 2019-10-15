@@ -9,17 +9,5 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-    - name: setuptools
-      run: sudo apt-get install python3-setuptools
-    - name: install ansible-lint
-      run: pip3 install --user ansible-lint
-    - name: install ansible-lint
-      run: whereis ansible-lint
-    - name: version
-      run: ~/.local/bin/ansible-lint --version
+    - name: ls
+      run: ls -la
