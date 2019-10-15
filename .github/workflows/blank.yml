@@ -16,6 +16,6 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - name: install ansible-lint
-      run: whereis pip3
+      run: pip3 install ansible-lint
     - name: install ansible-lint
       run: whereis pip  
