@@ -18,6 +18,6 @@ jobs:
     - name: setuptools
       run: sudo apt-get install python3-setuptools
     - name: install ansible-lint
-      run: pip3 install ansible-lint
+      run: pip3 install --user ansible-lint
     - name: install ansible-lint
       run: whereis ansible-lint
