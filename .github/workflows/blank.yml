@@ -21,3 +21,5 @@ jobs:
       run: pip3 install --user ansible-lint
     - name: install ansible-lint
       run: whereis ansible-lint
+    - name: version
+      run: .local/bin/ansible-lint --version
